@@ -29,8 +29,6 @@ SOURCES = $(wildcard src/*.cpp) \
 BUILD_DIR = build
 BIN_DIR = bin
 
-# LDFLAGS = $(HDF_LDFLAGS) -L/work4/scd/scarf1354/work/proj2/resources/lib
-
 LDFLAGS = $(HDF_LDFLAGS) -L/work4/scd/scarf1354/work/proj2/resources/lib -Wl,-rpath,/work4/scd/scarf1354/work/proj2/resources/lib
 
 
